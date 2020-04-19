@@ -1,0 +1,46 @@
+.result {
+  height: 60px;
+  border: 1px solid black;
+  width: 100%;
+}
+
+.result p {
+  font-size: 40px;
+  margin: 5px;
+
+}
+
+.calculator-body {
+  max-width: 400px;
+  margin: auto;
+}
+
+.button-row {
+  display: block;
+  background-color: #bbb;
+}
+
+input {
+  width: 25%;
+  height: 60px;
+  font-size: 20px;
+}
+
+.calculator-body .inputCSS {
+  background-color: black;
+  color: white;
+}
+
+.calculator-body .scientific {
+  width: 20%;
+  height: 60px;
+  font-size: 20px;
+}
+
+.calculator-body .themeButton {
+  background-color: burlywood;
+}
+
+.calculator-body .ScienticCal {
+  background-color: burlywood;
+}
