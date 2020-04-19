@@ -99,7 +99,7 @@ class App extends Component {
     let { expression, mode = '', theme = '' } = this.state;
     let css = `calculator-body ${theme}`;
     let themeButtonCss = (theme.indexOf('inputCSS') > 0) ? `calculator-body themeButton` : '';
-    let ScienticCalCSS = (mode) ? `calculator-body ScienticCal` : '';
+    let scienticCalCSS = (mode) ? `calculator-body ScienticCal` : '';
     return (
       <div>
         <div className={css}>
@@ -110,7 +110,7 @@ class App extends Component {
           <CalculatorRow3 theme={theme} handleClick={this.buttonClick} mode={mode} />
           <CalculatorRow4 theme={theme} handleClick={this.buttonClick} mode={mode} />
           <ThemeButton theme={themeButtonCss} label={'Theme'} handleClick={this.handletheme} type='action' />
-          <ScienticCal theme={ScienticCalCSS} label={'Scientific'} handleClick={this.handleScienticCal} type='action' />
+          <ScienticCal theme={scienticCalCSS} label={'Scientific'} handleClick={this.handleScienticCal} type='action' />
         </div>
       </div>
     );
