@@ -8,4 +8,4 @@ npm install && npm start
 
 
 
-https://github.com/prashan9775/react-calculator/blob/master/pic-calc.png
+![React-Calculator](https://github.com/prashan9775/react-calculator/blob/master/pic-calc.png)
